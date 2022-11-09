@@ -153,7 +153,8 @@ TCPRelay.prototype.initLogger = function() {
 		log4js.addAppender(log4js.appenders.file(this.logFile), this.getServerName());
 	}
 	this.logger = log4js.getLogger(this.getServerName());
-	this.logger.setLevel(this.logLevel);
+	// this.logger.setLevel(this.logLevel);
+	this.logger.level = 'DEBUG';
 };
 
 TCPRelay.prototype.initServer = function() {
