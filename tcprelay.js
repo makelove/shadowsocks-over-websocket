@@ -154,7 +154,8 @@ TCPRelay.prototype.initLogger = function() {
 	}
 	this.logger = log4js.getLogger(this.getServerName());
 	// this.logger.setLevel(this.logLevel);
-	this.logger.level = 'DEBUG';
+	//Node.js v20.5.1 报错 TypeError: this.logger.setLevel is not a functio
+	this.logger.level = 'INFO';// DE BUG
 };
 
 TCPRelay.prototype.initServer = function() {

@@ -1,3 +1,12 @@
+# 问题
+### Heroku收费，Render.com不支持TCP relay
+- DATE:2024-07-07 17:50:48
+
+- 反馈页面
+https://feedback.render.com/features?search=websocket
+- [无法在免费计划中使用Node.js websockets](https://community.render.com/t/cant-use-node-js-websockets-on-free-plan-no-solution-yet/6376) 连接只保持5分钟，之后他们只是断开连接。
+
+
 # shadowsocks-over-websocket
 基于 [shadowsocks](https://zh.wikipedia.org/zh-cn/Shadowsocks) 协议的翻墙工具 , 可部署在 [Heroku](https://www.heroku.com/) 平台上 , 实现免费科学上网
 
